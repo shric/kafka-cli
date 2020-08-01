@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	kafka_cli "github.com/shric/kafka-cli/pkg/kafka-cli"
+	kafka "github.com/shric/kafka-cli/pkg/kafka-cli"
 	"github.com/spf13/cobra"
 )
 
@@ -22,7 +22,7 @@ var consumerCmd = &cobra.Command{
 	RunE: func(cmd *cobra.Command, args []string) error {
 		var err error
 		flags := cmd.Flags()
-		c := kafka_cli.ConsumerCmd{}
+		c := kafka.ConsumerCmd{}
 		c.Group, err = flags.GetString(flagGroup)
 		if err != nil {
 			return err

@@ -1,4 +1,4 @@
-package kafka_cli
+package kafka
 
 import (
 	"context"
