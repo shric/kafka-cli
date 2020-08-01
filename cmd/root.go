@@ -12,6 +12,7 @@ import (
 	"golang.org/x/crypto/ssh/terminal"
 )
 
+// RootCmd is the root command for kafka-cli.
 var RootCmd = &cobra.Command{
 	Use:           "kafka",
 	Short:         "kafka-cli is a command line interface to Kafka",
