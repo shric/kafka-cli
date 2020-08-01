@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/shric/kafka-cli/pkg/kafka-cli"
+	kafka_cli "github.com/shric/kafka-cli/pkg/kafka-cli"
 	"github.com/spf13/cobra"
 )
 
@@ -19,7 +19,7 @@ const (
 var consumerCmd = &cobra.Command{
 	Use:   "consumer",
 	Short: "Display information about a consumer/topic",
-	RunE: func(cmd *cobra.Command, args[] string) error {
+	RunE: func(cmd *cobra.Command, args []string) error {
 		var err error
 		flags := cmd.Flags()
 		c := kafka_cli.ConsumerCmd{}
@@ -34,4 +34,3 @@ var consumerCmd = &cobra.Command{
 		return c.Run(cmd.OutOrStdout())
 	},
 }
-

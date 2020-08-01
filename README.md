@@ -1,5 +1,9 @@
 # kafka-cli
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/shric/kafka-cli)](https://goreportcard.com/report/github.com/shric/kafka-cli)
+![MIT license](https://img.shields.io/github/license/shric/kafka-cli)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/shric/kafka-cli)
+
 This software is pre-alpha. It's not useful or ready yet.
 
 ## Introduction
