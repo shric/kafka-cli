@@ -1,5 +1,7 @@
 # kafka-cli
 
+This software is pre-alpha. It's not useful or ready yet.
+
 ## Introduction
 
 `kafka-cli` is a command line tool written for Kafka. It uses [segmentio/kafka-go](https://github.com/segmentio/kafka-go).
