@@ -25,6 +25,6 @@ func (c ConsumerCmd) Run(out io.Writer) error {
 	if err != nil {
 		return err
 	}
-	fmt.Println(res)
+	fmt.Fprintln(out, res)
 	return nil
 }
